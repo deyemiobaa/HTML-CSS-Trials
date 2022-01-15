@@ -5,5 +5,22 @@ body{
     background-position:center;
 }
 
-
+.container {
+    margin: auto;
+    margin-top: 60px;
+  }
+  
+  .header {
+    text-align: center;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .header p {
+    font-size: large;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    word-spacing: 2.5px;
+  }
+  
 
