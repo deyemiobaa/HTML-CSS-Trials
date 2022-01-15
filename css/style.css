@@ -91,3 +91,25 @@ input[type="checkbox"] {
     height: 1.5em;
     width: 10%;
 }
+textarea{
+    font-size: medium; font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block; 
+    width: 100%; 
+    margin-bottom: 20px; 
+    height: 120px;
+    padding-left: 15px; 
+    cursor: text;
+}
+button{
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(37, 37, 82);
+    cursor: pointer; display: block;
+    font-size: 24px; 
+    border-radius: 5px; 
+    color: white;
+    height: max-content;
+    padding: 10px; 
+    border: none;
+
+}
