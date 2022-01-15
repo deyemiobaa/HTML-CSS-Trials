@@ -52,3 +52,42 @@ input{
     border-radius: 0.2rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; 
 }
+
+input, select{
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+label {
+    display: flex;
+    align-items: center;
+    font-size: 1.125rem;
+    margin-bottom: 0.5rem;
+}
+
+span {
+    font-size: small;
+    padding-left: 10px;
+}
+select {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    border-radius: 5px;
+    height: 2.5em;
+    width: 100%;
+    margin-bottom: 20px;
+    align-items: center;
+    border-radius: 0.25rem;
+    border: 1px;
+}
+
+input[type="radio"] {
+    height: 1.5em;
+    width: 10%;
+}
+
+input[type="checkbox"] {
+    height: 1.5em;
+    width: 10%;
+}
