@@ -53,7 +53,7 @@ input{
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; 
 }
 
-input, select{
+input, select, button, textarea{
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
